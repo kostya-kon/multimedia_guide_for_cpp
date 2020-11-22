@@ -108,7 +108,7 @@ media/
 *.pid
 
 # Ignore Django Migrations in Development if you are working on team
-
+key.txt
 # Only for Development only
 # **/migrations/**
 # !**/migrations
