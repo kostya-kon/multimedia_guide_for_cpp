@@ -1,0 +1,44 @@
+.team-container{
+    width: 80%;
+    height: 80%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start
+}
+.text-team{
+    margin: 0;
+}
+.card{
+    width: 17%;
+    height: 40%;
+    background-color: white;
+    margin: 2%;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.7s;
+    transition-property: background-color;
+    position: relative;
+}
+
+.card:hover{
+    background-color: blue;
+}
+
+.card:hover .bold.text-card{
+    color: white;
+}
+.main-container.team{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-img{
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+}

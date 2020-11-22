@@ -50,3 +50,9 @@ header
 {
     background-color: #e6e6eb;
 }
+
+.teamHeder
+{
+    position: static;
+    margin-top: -16px;
+}

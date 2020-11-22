@@ -37,4 +37,20 @@ p
     padding-left: 2%;
     border-radius: 16px; 
     font-family: 'AnonymousPro';
+    background-color: silver;
+    color: green;
+}
+
+table
+{ 
+    margin-top: 2%;
+    border: 5px solid silver;
+    border-radius: 16px; 
+    width: 600px;
+}
+th, td
+{
+    text-align: center;
+    border: 2px solid grey;
+    margin: 5px;
 }
