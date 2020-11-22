@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'Ubuntu';
+    src: url(../font/Ubuntu-Regular.ttf);
+}
+.test-form{
+    font-weight:bold;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+}
+h2{
+    font-style: italic;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+}

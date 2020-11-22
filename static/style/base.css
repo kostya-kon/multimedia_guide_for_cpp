@@ -1,0 +1,141 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(text.css);
+@import url(fonts.css);
+
+body
+{
+    background-color: #f8f9fc;
+}
+
+.bigContainer
+{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;  
+}
+.navigation
+{
+    background-color: #fff;
+    width: 19%;
+    border-radius: 16px;
+    margin-left: 4%;
+    height: 630px;
+    box-shadow: 0 0 16px 0 hsla(240,7%,52%,.2);
+}
+
+.navigationMenu a 
+{
+    display: block;
+    /* border: 1px solid white; */
+    height: 70px;
+    padding-top: 7%;
+    transition: 2s background-color;
+    border-radius: 16px;
+    
+}
+.navigationMenu a:hover
+{
+    background-color: #85858f;
+}
+
+.list
+{
+    position: relative;
+}
+
+
+.subNavigationMenu
+{
+    position: absolute;
+    top: -9999em;
+    width: 100%;
+    opacity: 0;
+    transition: 0.7s opacity;
+}
+
+a
+{
+    text-decoration: none;
+    text-align: center;
+    color:inherit;
+    font-family: 'Ubuntu';
+}
+
+
+
+.first
+{
+    transition: 0.7  background-color;
+}
+.first:hover ~ .second
+{
+    margin-top: 350px;
+}
+.second:hover ~ .third
+{
+    margin-top: 350px;
+}
+.third:hover ~ .forth
+{
+    margin-top: 350px;
+}
+.list:hover .subNavigationMenu
+{
+    top: 70px ;
+    opacity: 1;
+}
+
+
+
+.mainContainer
+{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 16px;
+    height: 2000vh;
+    margin-left: 3%;
+    box-shadow: 0 0 16px 0 hsla(240,7%,52%,.2);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; */
+
+}
+.anchors
+{
+    background-color: #fff;
+    width: 20%;
+    border-radius: 16px;
+    margin-left: 3%;
+    height: 210px;
+    box-shadow: 0 0 16px 0 hsla(240,7%,52%,.2);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    z-index: 99;
+
+}
+.anchors a
+{
+    display: block;
+    /* border: 1px solid white; */
+    height: 70px;
+    padding-top: 7%;
+    transition: 2s background-color;
+    border-radius: 16px;
+}
+.anchors a:hover
+{
+    background-color:#85858f;
+}
+
+footer
+{
+    background-color: #e6e6eb;
+    box-shadow:  0 16px 0 rgba(190,190,204,.25);
+
+}

@@ -1,0 +1,40 @@
+p
+{
+    font-family: 'Ubuntu';
+    text-align: center;
+    margin-top: 2%;
+}
+.theme
+{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.lesson
+{
+    font-size: 30px;
+    font-weight: normal;
+}
+.subTheme
+{
+    font-size: 20px;
+}
+.regular
+{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 18px;
+}
+
+.code
+{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 18px;
+    border: 5px solid silver;
+    padding-left: 2%;
+    border-radius: 16px; 
+    font-family: 'AnonymousPro';
+}
