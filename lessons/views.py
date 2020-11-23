@@ -5,6 +5,7 @@ from lessons.answers import *
 
 
 def home(request):
+    """home page"""
     return render(request, "home.html")
 
 
