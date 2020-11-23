@@ -12,8 +12,10 @@
     <input type="submit" value="Send" >
 </form>
 
-{% if grade > -1 %}
-    <h2> Your result : {{ grade }} / 4 points </h2>
+{% if grade > 2 %}
+    <h2 style="color: green"> Тест упішно пройдено! Ваша оцінка : {{ grade }} / 4  </h2>
+{% elif grade > -1 %}
+    <h2 style="color: red"> Тест не пройдено! Ваша оцінка : {{ grade }} / 4  </h2>
 {% endif %}
 
 {% endblock main %}
