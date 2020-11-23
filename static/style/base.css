@@ -10,7 +10,7 @@ body
 
 .bigContainer
 {
-    margin-top: 80px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;  
@@ -114,7 +114,7 @@ a
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 80px;
+    top: 114px;
     right: 10px;
     z-index: 99;
 
