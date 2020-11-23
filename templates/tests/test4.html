@@ -2,9 +2,10 @@
 {% load static %}
 
 {% block main %}
+<h1>Тест до теми №4</h1>
 <link rel="stylesheet" href="{% static 'style/tests.css' %}">
 <form method="POST">
-        {% csrf_token %}
+    {% csrf_token %}
     <table class="table-test">
         {{ form.as_table }}
     </table>
@@ -12,7 +13,7 @@
 </form>
 
 {% if grade > -1 %}
-    <h2> Your result : {{ grade }} / 3 points </h2>
+    <h2> Your result : {{ grade }} / 4 points </h2>
 {% endif %}
 
 {% endblock main %}
