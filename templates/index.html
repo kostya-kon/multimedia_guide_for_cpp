@@ -64,7 +64,9 @@
             </ul>
         </div>
         <div class="mainContainer">{% block main %}{% endblock main %} </div>
-        <div class="anchors" class= {% block anchorsVer %}{% endblock anchorsVer %}>{% block anchors %}{% endblock anchors %}</div>
+        {% block anchors %}
+        <div class="anchors" ></div>
+        {% endblock anchors %}
     </div>
     <footer>
         <img class="footerImg" src="{% static 'img/Dovolen.png' %}" alt="">

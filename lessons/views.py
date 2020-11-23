@@ -14,7 +14,9 @@ def lessons_home(request):
 
 def lessons(request, id):
     html_page = "lessons/lesson" + id + ".html"
-    return render(request, html_page)
+    context = {"classname" : "'lesson" + id + "'"}
+    print(context)
+    return render(request, html_page, context=context)
 
 
 def test(request, id):
