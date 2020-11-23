@@ -2,14 +2,14 @@
 {% load static %}
 
 {% block main %}
-<h1>Тест до теми №4</h1>
+<h1 class="theme">Тест до теми №4</h1>
 <link rel="stylesheet" href="{% static 'style/tests.css' %}">
 <form method="POST">
     {% csrf_token %}
     <table class="table-test">
         {{ form.as_table }}
     </table>
-    <input type="submit" value="Send" >
+    <input type="submit" id="sendButton"  value="Send" >
 </form>
 
 {% if grade > 2 %}
