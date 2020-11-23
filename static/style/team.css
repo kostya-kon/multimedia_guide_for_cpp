@@ -51,11 +51,11 @@
 
 .bold
 {
-    font-size: 30px;
+    font-size: 25px;
 }
 .light
 {
-    font-size: 20px;
+    font-size: 17px;
 }
 .text-card .data-card 
 {
@@ -63,10 +63,15 @@
 }
 span
 {
-    font-size: 30px;
+    font-size: 26px;
     font-family: "Ubuntu";
 }
 #vlada
 {
-    font-size: 25px;
+    font-size: 23px;
+}
+
+#Kostya
+{
+    margin-top: -13px;
 }
