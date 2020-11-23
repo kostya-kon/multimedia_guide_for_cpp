@@ -41,14 +41,20 @@ p
     color: green;
 }
 
-table .regular
+table.regular 
 { 
     margin-top: 2%;
     border: 5px solid silver;
     border-radius: 16px; 
     width: 600px;
 }
-th .regular, td .regular
+table.regular th
+{
+    text-align: center;
+    border: 2px solid grey;
+    margin: 5px;
+}
+table.regular tr
 {
     text-align: center;
     border: 2px solid grey;
