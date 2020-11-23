@@ -19,7 +19,7 @@ def lessons(request, id):
 def test(request, id):
     html_page = "tests/test" + id + ".html"
 
-    answer_dict = {'question1': ['1'], 'question2': ['2'], 'question3': ['3']}
+    answer_dict = {'question1': ['4'], 'question2': ['2'], 'question3': ['1'], 'question4': ['3']}
     context = {"form": Test1}
 
     grade = -1
