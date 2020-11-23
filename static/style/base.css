@@ -94,7 +94,7 @@ a
     background-color: #fff;
     width: 50%;
     border-radius: 16px;
-    height: 2000vh;
+    /* height: 2000vh; */
     margin-left: 3%;
     box-shadow: 0 0 16px 0 hsla(240,7%,52%,.2);
     /* display: flex;
