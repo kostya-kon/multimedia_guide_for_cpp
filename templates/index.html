@@ -9,12 +9,12 @@
 </head>
 <body>
     <header>
-        <span class="logo">Guite of CPP</span>
+        <span class="logo">Guide of CPP</span>
         <nav class="menu">
             <ul>
-                <li><a href="index.html"></a>Домашняя</li>
-                <li><a href="#"></a>Уроки</li>
-                <li><a href="#"></a>Об нас</li>
+                <li><a href="http://127.0.0.1:8000"></a>Домашняя</li>
+                <li><a href="http://127.0.0.1:8000/lessons"></a>Уроки</li>
+                <li><a href="http://127.0.0.1:8000/about"></a>Об нас</li>
             </ul>
         </nav>
     </header>
@@ -28,6 +28,7 @@
                         <li><a href="http://127.0.0.1:8000/lessons/3">Урок 3. Типи даних</a></li>
                         <li><a href="http://127.0.0.1:8000/lessons/4">Урок 4. Присвоєння. Арифметичні вирази</a></li>
                         <li><a href="http://127.0.0.1:8000/lessons/5">Урок 5. Потоки. Введення і виведення</a></li>
+                        <li><a href="http://127.0.0.1:8000/test/1">Пройти тестування знань</a></li>
                     </ul>
                 </li>
                 <li class="list second"><a href="http://127.0.0.1:8000/lessons/6/">Процеси мови С++</a>
@@ -37,6 +38,7 @@
                         <li><a href="http://127.0.0.1:8000/lessons/8">Урок 3. Розгалуження</a></li>
                         <li><a href="http://127.0.0.1:8000/lessons/9">Урок 4. Побітові операції</a></li>
                         <li><a href="http://127.0.0.1:8000/lessons/10">Урок 5. Продовження вивчення побітових операцій(команди)</a></li>
+                        <li><a href="http://127.0.0.1:8000/test/2">Пройти тестування знань</a></li>
                     </ul>
                 </li>
                 <li class="list third"><a href="http://127.0.0.1:8000/lessons/11/">Цикли та функції мови С++</a>
@@ -46,6 +48,7 @@
                         <li><a href="http://127.0.0.1:8000/lessons/13">Урок 3. Продовження вивчення функції #1</a></li>
                         <li><a href="http://127.0.0.1:8000/lessons/14">Урок 4. Продовження вивчення функції №2</a></li>
                         <li><a href="http://127.0.0.1:8000/lessons/15">Урок 5. Продовження вивчення функції №3</a></li>
+                        <li><a href="http://127.0.0.1:8000/test/3">Пройти тестування знань</a></li>
                     </ul>
                 </li>
                 <li class="list forth"><a href="http://127.0.0.1:8000/lessons/16/">Масиви, рядки мови С++ </a>
@@ -55,6 +58,7 @@
                         <li><a href="http://127.0.0.1:8000/lessons/18">Урок 3. Рядки</a></li>
                         <li><a href="http://127.0.0.1:8000/lessons/19">Урок 4. Структури та списки</a></li>
                         <li><a href="http://127.0.0.1:8000/lessons/20">Урок 5. Стеки та черги</a></li>
+                        <li><a href="http://127.0.0.1:8000/test/4">Пройти тестування знань</a></li>
                     </ul>
                 </li>
             </ul>
@@ -62,6 +66,10 @@
         <div class="mainContainer">{% block main %}{% endblock main %} </div>
         <div class="anchors" class= {% block anchorsVer %}{% endblock anchorsVer %}>{% block anchors %}{% endblock anchors %}</div>
     </div>
-    <footer>1</footer>
+    <footer>
+        <img class="footerImg" src="{% static 'img/Dovolen.png' %}" alt="">
+        <p class="footerP">Made by Multimedia team</p>
+        <img class="footerImg" src="{% static 'img/Dovolen.png' %}" alt="">
+    </footer>
 </body>
 </html>

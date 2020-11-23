@@ -21,7 +21,7 @@ body
     width: 19%;
     border-radius: 16px;
     margin-left: 4%;
-    height: 630px;
+    height: 700px;
     box-shadow: 0 0 16px 0 hsla(240,7%,52%,.2);
 }
 
@@ -67,19 +67,19 @@ a
 
 .first
 {
-    transition: 0.7  background-color;
+    transition: 0.7;
 }
 .first:hover ~ .second
 {
-    margin-top: 350px;
+    margin-top: 420px;
 }
 .second:hover ~ .third
 {
-    margin-top: 350px;
+    margin-top: 420px;
 }
 .third:hover ~ .forth
 {
-    margin-top: 350px;
+    margin-top: 420px;
 }
 .list:hover .subNavigationMenu
 {
@@ -142,4 +142,10 @@ footer
     background-color: #e6e6eb;
     box-shadow:  0 16px 0 rgba(190,190,204,.25);
 
+}
+video{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 96%;
+    margin-right: 2%;
 }
