@@ -1,17 +1,21 @@
-.team-container{
-    width: 80%;
-    height: 80%;
-    margin-top: 1%;
+.teamContainer{
+    width: 98%;
+    height: 85vh;
+    background-color: rgb(156, 156, 156);
+    margin: 1% auto;
+    border-radius: 23px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-start
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 16px 0 hsla(240,7%,52%,.2);
 }
 .text-team{
     margin: 0;
 }
 .card{
-    width: 17%;
+    width: 16%;
     height: 40%;
     background-color: white;
     margin: 2%;
@@ -25,20 +29,44 @@
     position: relative;
 }
 
-.card:hover{
-    background-color: blue;
+.info
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.card:hover .bold.text-card{
-    color: white;
-}
-.main-container.team{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
 .card-img{
     height: 40%;
     width: 40%;
     border-radius: 50%;
+}
+.telergamPic
+{
+    margin-top: 2px;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.bold
+{
+    font-size: 30px;
+}
+.light
+{
+    font-size: 20px;
+}
+.text-card .data-card 
+{
+    font-family: "Ubuntu";
+}
+span
+{
+    font-size: 30px;
+    font-family: "Ubuntu";
+}
+#vlada
+{
+    font-size: 25px;
 }
