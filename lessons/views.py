@@ -3,8 +3,9 @@ from django.http import HttpResponse, HttpResponsePermanentRedirect
 from lessons.forms import *
 from lessons.answers import *
 
+
 def home(request):
-    return render(request, "index.html")
+    return render(request, "home.html")
 
 
 def lessons_home(request):
@@ -44,4 +45,4 @@ def test(request, id):
 
 
 def about(request):
-    pass
+    return render(request, "team.html")

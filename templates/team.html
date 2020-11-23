@@ -1,121 +1,122 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style/base.css">i
+    <link rel="stylesheet" href="{% static 'style/base.css' %}">i
 </head>
 <body>
     <header class="teamHeder">
-        <span class="logo">Guite of CPP</span>
+        <span class="logo">Guide of CPP</span>
         <nav class="menu">
             <ul>
-                <li><a href="index.html"></a>Домашняя</li>
-                <li><a href="#"></a>Уроки</li>
-                <li><a href="#"></a>Об нас</li>
+                <li><a href="index.html">Домашняя</a></li>
+                <li><a href="#">Уроки</a></li>
+                <li><a href="#">Об нас</a></li>
             </ul>
         </nav>
         </header>
         <div class="teamContainer">
             <div class="card">
-                <img class="card-img" src="source/img/я.jpg" alt="">
+                <img class="card-img" src="{% static 'img/я.jpg' %}" alt="">
                 <p class="bold text-card">Іван Кохан</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card">@ivanKokhan</span>
                 </div>
                 
             </div>
             <div class="card">
-                <img class="card-img" src="source/img/Костя.jpg" alt="">
+                <img class="card-img" src="{% static 'img/Костя.jpg' %}" alt="">
                 <p class="bold text-card">Констянтин Коноваленко</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card">@dnodnanadnedna</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img" src="source/img/Денис.jpg" alt="">
+                <img class="card-img" src="{% static 'img/Денис.jpg' %}" alt="">
                 <p class="bold text-card">Денис Косінський</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card">@joli1i</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img" src="source/img/Даня.jpg" alt="">
+                <img class="card-img" src="{% static 'img/Даня.jpg' %}" alt="">
                 <p class="bold text-card">Данило Лигута</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card">@crybabby</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img" src="source/img/Влад.jpg" alt="">
+                <img class="card-img" src="{% static 'img/Влад.jpg' %}" alt="">
                 <p class="bold text-card">Владислав Кошеленко</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card">@WellyShadow</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img" src="source/img/Назар.jpg" alt="">
+                <img class="card-img" src="{% static 'img/Назар.jpg' %}" alt="">
                 <p class="bold text-card">Назар Король</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card">@Korol_N_V</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img" src="source/img/Влада.jpg" alt="">
+                <img class="card-img" src="{% static 'img/Влада.jpg' %}" alt="">
                 <p class="bold text-card">Владислава Носовська</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card" id="vlada">@chochochochochocho</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img" src="source/img/Жека.jpg" alt="">
+                <img class="card-img" src="{% static 'img/Жека.jpg' %}" alt="">
                 <p class="bold text-card">Євгеній Ліщенко</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card">@dieyong</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img" src="source/img/Саня.jpg" alt="">
+                <img class="card-img" src="{% static 'img/Саня.jpg' %}" alt="">
                 <p class="bold text-card">Олександр Подвойський</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card">@Sysyandr</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img" src="source/img/Макс.jpg" alt="">
+                <img class="card-img" src="{% static 'img/Макс.jpg' %}" alt="">
                 <p class="bold text-card">Максим Марченко</p>
                 <p class="light text-card">Team Multimedia</p>
                 <p class="light data-card">1 September 2019</p>
                 <div class="info">
-                    <img class="telergamPic" src="source/img/telegram.png" alt="">
+                    <img class="telergamPic" src="{% static 'img/telegram.png' %}" alt="">
                     <span class="data-card">@maxxr3</span>
                 </div>
             </div>
