@@ -1,1 +1,1 @@
-web: gunicorn cppguide.wsgi --log-file -
+web: gunicorn multimedia.wsgi --log-file -
