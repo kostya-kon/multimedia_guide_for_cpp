@@ -53,3 +53,9 @@ header
     position: static;
     margin-top: -16px;
 }
+
+#aboutLink
+{
+    width: 81px;
+    text-align: start;
+}
