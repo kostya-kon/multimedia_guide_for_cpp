@@ -1,6 +1,7 @@
-@font-face{
+@font-face
+{
     font-family: 'Ubuntu';
-    src: url(../font/Ubuntu-Regular.ttf);
+    src: url(../fonts/Ubuntu-Regular.ttf);
 }
 .test-form {
     font-family: 'Ubuntu';
