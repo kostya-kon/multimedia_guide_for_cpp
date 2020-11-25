@@ -31,8 +31,8 @@
                 return 0;<br>
                 }<br>
             </p>
-            <p class="subTheme">Відео пояснення</p>
-            <video  controls >
+            <p class="subTheme" id="video1">Відео пояснення</p>
+            <video   controls >
                 <source src="{% static 'video/1.mp4' %}" type="video/mp4">
             </video>
             <p class="regular">
@@ -120,7 +120,8 @@
             </p>
 {% endblock main %}
 {% block anchors %}
-<div class="anchors lesson2">
+<div class="anchors">
+    <a href="#video1">Відео урок</a>
     <a href="#subTheme1_2_1">Перша програма</a>
     <a href="#subTheme1_2_2">Сталі та змінні</a>
 </div>

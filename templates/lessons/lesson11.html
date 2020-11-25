@@ -78,7 +78,7 @@
                     cout << "Сума цифр числа " << n << "дорівнює " << S;<br>
                     }<br>
             </p>
-            <p class="subTheme">Відео пояснення</p>
+            <p class="subTheme" id="video5">Відео пояснення</p>
             <video  controls >
                 <source src="{% static 'video/5.mp4' %}" type="video/mp4">
             </video>
@@ -177,7 +177,8 @@
 {% endblock main %}
 
 {% block anchors %}
-<div class="anchors">
+<div class="anchors lessonWithVideo">
+    <a href="#video5">Відео урок</a>
     <a href="#subTheme3_1_1">Цикли. Команда циклу з лічильником for</a>
     <a href="#subTheme3_1_2">Команда циклу з передумовою (while)</a>
     <a href="#subTheme3_1_3">Команда циклу з післяумовою do-while</a>
